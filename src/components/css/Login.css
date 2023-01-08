@@ -27,12 +27,17 @@
   flex-direction: column;
   border-radius: 5px;
   border: 1px solid lightgray;
+  margin: 50px;
   padding: 20px;
 }
 
 .login-container > h1 {
   font-weight: 500;
   margin-bottom: 20px;
+}
+.login-container > h3{
+  text-align: center;
+  color: #eb6440;
 }
 
 .login-container > form > h5 {
@@ -41,10 +46,11 @@
 }
 
 .login-container > form > input {
-  height: 30px;
-  margin-bottom: 10px;
-  background-color: #fff;
-  width: 98%;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 10px;
+  width: 300px;
 }
 
 .login-container > p {
@@ -53,15 +59,14 @@
 }
 
 .login-signIn {
-  background: #f0c14b;
-  border-radius: 2px;
-  width: 100%;
-  height: 30px;
-  border: 1px solid;
-  margin-top: 10px;
-  color: #111;
-  border-color: #a88734 #9c7e31 #846a29;
+  background-color: #eb6440;
+  border: none;
+  border-radius: 4px;
+  color: #eff5f5;
   cursor: pointer;
+  font-size: 1.1em;
+  padding: 8px 50px;
+  transition: .4s;
 }
 
 .login-register {

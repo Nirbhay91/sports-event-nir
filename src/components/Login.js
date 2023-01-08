@@ -45,16 +45,16 @@ const Login = () => {
   return (
     <div className="login">
       <div className="login-container">
-        <h3>Participante Login</h3>
+        <h3>Login</h3>
         <form onSubmit={submitHandler}>
-          <h3>Username</h3>
+          <h5>Username</h5>
           <input
             type="text"
-            placeholder="username"
+            placeholder="Username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
-          <h3>Password</h3>
+          <h5>Password</h5>
           <input
             type="password"
             placeholder="password"
